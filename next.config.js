@@ -1,6 +1,4 @@
-import type { Config } from 'next'
-
-const config: Config = {
+const config = {
   reactStrictMode: true,
   i18n: {
     locales: ['ar', 'en'],
@@ -11,4 +9,4 @@ const config: Config = {
   },
 }
 
-export default config
+module.exports = config
